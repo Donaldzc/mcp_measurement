@@ -1,0 +1,28 @@
+﻿python.exe : D:\code\trae\temp_20261021_02\mcp_measurement\paper_figures.py:184: SyntaxWarning: "\l" is an invalid esca
+pe sequence. Such sequences will not work in the future. Did you mean "\\l"? A raw string is also an option.
+At line:15 char:5178
++ ... _EMAIL = 'solo-agent@trae.ai'; & python paper_figures.py 2>&1 | Tee-O ...
++                                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (D:\code\trae\te...also an option.:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+  ax.set_ylabel("Static$\leftrightarrow$ dynamic recall")
+Generating paper figures...
+  ✓ Fig1
+  ✓ Fig2
+  ✓ Fig3
+  ✓ Fig4
+  ✓ Fig5
+  ✓ Fig6
+  ✓ Fig7
+  ✓ Fig8
+
+✓ 生成完毕：8 PNG + 8 PDF in D:\code\trae\temp_20261021_02\mcp_measurement\sandbox\output\figures
+  fig1_concentration.png
+  fig2_f4_prevalence.png
+  fig3_f4_heatmap.png
+  fig4_f3_style.png
+  fig5_drift.png
+  fig6_ci_vs_manual.png
+  fig7_e7_heatmap.png
+  fig8_partial.png

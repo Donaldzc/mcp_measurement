@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "2026-10-22T08:15:40Z",
+  "thresholds": {
+    "F1_success_rate": ">= 0.85 (各 source 分)",
+    "F2_missing_rate": "< 0.15 (工具描述)",
+    "F3_kappa": ">= 0.6",
+    "F4_kappa": ">= 0.6 (按分类)"
+  },
+  "F1_grasp_success": {
+    "F1_grasp_success_rate_static": 0.92,
+    "F1_grasp_success_rate_dynamic": 1.0,
+    "F1_static_attempts": 50,
+    "F1_static_rate_limited": false,
+    "F1_dynamic_attempts": 2,
+    "note": "static 输入为 Top-N star 样本（pilot-only）；主测量应按 registry 抽样后重跑本指标"
+  },
+  "F2_missing": {
+    "F2_tool_total": 248,
+    "F2_tool_description_missing_rate": 0.028,
+    "F2_tool_description_missing_by_method": {
+      "static": 0.035,
+      "dynamic": 0.0
+    }
+  },
+  "F3_agreement": {
+    "F3_static_dynamic_agreement_cohen_kappa": null,
+    "note": "需 AST/dataflow 抽取能力后跑 20-server 抽样比对；全量阶段执行"
+  },
+  "F4_annotation": {
+    "F4_kappa_observed_agreement_by_class": {
+      "C1": 0.0,
+      "C2": 0.0,
+      "C3": 0.0,
+      "C4": 0.0,
+      "C5": 0.0,
+      "C6": 0.0
+    }
+  }
+}
